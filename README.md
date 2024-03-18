@@ -40,4 +40,4 @@ To run this project, you will need to add the following enviroment variables to 
 `SMTP_FROM_EMAIL`=`Your SMTP_EMAIL`
 ## Features
 - User and Admin Authentication
-* User Profile
+- User Profile
