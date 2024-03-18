@@ -26,7 +26,7 @@ npm run dev
 ```
 ## Enviroment Variables
 To run this project, you will add the following enviroment variables to your .env file
-`PORT =  your PORT_NUMBER`
+######`PORT =  your PORT_NUMBER`
 **MONGODB_URL = your Database_URL**
 **JWT_SECRET =  your JWT_SECRET_KEY**
 **JWT_EXPIRES_TIME = your JWT_EXPIRES_TIME**
