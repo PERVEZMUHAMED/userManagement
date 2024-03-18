@@ -9,7 +9,9 @@ This is an user Management API build using nodeJs with express framework.clean a
   * JWT
 ## Setup
 To run this project, install it locally using npm,
+````
 $ cd backend
 $ npm install
+````
 ## Development
 $ npm run dev
