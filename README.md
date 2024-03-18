@@ -1,4 +1,4 @@
-# User Management in NodeJs with Express framework
+  # User Management in NodeJs with Express framework
 This is an user Management API build using nodeJs with express framework.clean architecture design pattern was follwed while building this project in order to implements decoupling and separation of concerns.
 # Project Overview 
 # Tech Stack 
@@ -7,11 +7,36 @@ This is an user Management API build using nodeJs with express framework.clean a
   * Mongodb 
   * Mongoose ODM
   * JWT
-## Setup
-To run this project, install it locally using npm,
-````
-$ cd backend
-$ npm install
-````
-## Development
-$ npm run dev
+## Run Locally 
+clone the Project
+```
+git clone https://github.com/PERVEZMUHAMED/userManagement.git
+```
+Go to the project directory
+```
+cd backend
+```
+Install Dependencies
+```
+npm install
+```
+## start the server
+```
+npm run dev
+```
+## Enviroment Variables
+To run this project, you will add the following enviroment variables to your .env file
+**PORT =  your PORT_NUMBER** 
+**MONGODB_URL = your Database_URL**
+**JWT_SECRET =  your JWT_SECRET_KEY**
+**JWT_EXPIRES_TIME = your JWT_EXPIRES_TIME**
+**COOKIE_EXPIRES_TIME= your COOKIE_EXPIRES_TIME**
+**SMTP_HOST= your SMTP_HOST**
+**SMTP_PORT= Your SMTP_PORT**
+**SMTP_USER= your SMTP_USER**
+**SMTP_PASS= Your SMTP_PASS**
+**SMTP_FROM_NAME= Your SMTP_NAME**
+**SMTP_FROM_EMAIL= Your SMTP_EMAIL**
+## Features
+* User and Admin Authentication
+* User Profile
