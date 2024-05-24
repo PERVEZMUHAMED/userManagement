@@ -1,11 +1,11 @@
 import { Container } from "inversify";
 import { TYPES } from "./TYPES";
-import IUserRepository from "../repository/Interface/user.repository.interface";
-import UserRepository from "../repository/user.repository";
+import IUserRepository from "../repositorys/Interface/user.repository.interface";
+import UserRepository from "../repositorys/user.repository";
 import UserService from "../service/user.service";
 import IUserService from "../service/Interface/user.service.interface";
-import IUserController from "../controller/Interface/userController.interface";
-import UserController from "../controller/userController";
+import IUserController from "../controllers/Interface/userController.interface";
+import UserController from "../controllers/userController";
 import IAuthMiddleware from "../middleware/Interface/auth.middleware.interface";
 import AuthMiddleware from "../middleware/authenticate";
 

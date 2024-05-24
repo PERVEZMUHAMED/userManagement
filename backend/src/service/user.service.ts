@@ -1,7 +1,7 @@
 import "reflect-metadata";
 import { inject, injectable } from "inversify";
 import User from "../models/Interface/user.model.interface";
-import IUserRepository from "../repository/Interface/user.repository.interface";
+import IUserRepository from "../repositorys/Interface/user.repository.interface";
 import IUserService from "./Interface/user.service.interface";
 import { TYPES } from "../di/TYPES";
 import { Model } from "mongoose";

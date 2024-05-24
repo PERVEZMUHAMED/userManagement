@@ -4,11 +4,11 @@ import IUserService from "../service/Interface/user.service.interface";
 import { TYPES } from "../di/TYPES";
 import { Request, Response, NextFunction } from "express";
 import ErrorHandler from "../utils/Errorhandler";
-import userModel from "../model/user.model";
+import userModel from "../models/user.model";
 import { sendEmail } from "../utils/email";
 import { randomBytes } from "crypto";
-import tokenModel from "../model/token.model";
-import User from "../model/Interface/user.model.interface";
+import tokenModel from "../models/token.model";
+import User from "../models/Interface/user.model.interface";
 
 @injectable()
 export default class UserController implements IUserController {
